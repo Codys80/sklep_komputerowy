@@ -1,0 +1,56 @@
+.offer{
+    float: left;
+    clear: both;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-size: 100%;
+    border-radius: 5px;
+    margin: 5px;
+}
+.offer:hover{
+    border: solid 1px black;
+    padding: 5px;
+    margin: 5px;
+    scale: 105%;
+    font-size: 105%;
+    font-family: "Comic Sans MS", serif;
+    box-shadow: gray 5px 5px 5px;
+}
+/*.offer:hover*/
+/*{*/
+/*    padding: 10px;*/
+/*    margin: 25px;*/
+/*}*/
+.offer_info, .offer_price, .offer_photo{
+    clear: both;
+    float: left;
+    text-align: left;
+    margin: 2px;
+    padding: 2px;
+}
+.offer_price{
+    text-align: right;
+    width: 99%;
+}
+.buy_button {
+    float: left;
+    clear: both;
+    border: solid 1px black;
+    background-color: greenyellow;
+    margin: 1px;
+    font-family: "Comic Sans MS", serif;
+    border-radius: 5px;
+}
+.buy_button:hover {  backdrop-filter: brightness(40%);}
+
+.buy_button:active {
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.cart{
+    padding-top: 10px;
+    height: 15px;
+    width: 15px;
+}
